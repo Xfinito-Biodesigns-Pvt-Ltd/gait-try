@@ -1,4 +1,3 @@
-import cv2
 from .cv2 import *
 import mediapipe as mdp
 import math
@@ -180,4 +179,4 @@ with mdp_pose.Pose(min_detection_confidence= 0.5, min_tracking_confidence=0.5) a
         break
 
  vid_cap.release()
- cv2.destroyAllWindows()
+#  cv2.destroyAllWindows()
