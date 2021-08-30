@@ -1,4 +1,5 @@
 from .cv2 import *
+import cv2
 import mediapipe as mdp
 import math
 import numpy as np
